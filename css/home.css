@@ -1,0 +1,71 @@
+.home {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.header-top {
+margin-top: 30px;
+}
+
+.header-rainydays-logo {
+  padding-left: 30px;
+  margin-top: 0px;
+}
+
+.header-buttons {
+  margin-top: 0px;
+}
+
+.selected_product { 
+  background: url("../Images/Women.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.checkout {
+  background: url("../Images/Mountains\ and\ person.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cart {
+  background: url("../Images/Women.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.about {
+  background: url("../Images/Mountains\ and\ person.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.products {
+  background: url("../Images/Women.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+main {
+  text-align: center;  
+  margin-right: 30px; /* Adjust for misalignment with background image */
+  margin-top: 150px;
+}
+
+main a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 30px
+}
+
+.active {
+  color: white;
+}
+
+.footer {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}

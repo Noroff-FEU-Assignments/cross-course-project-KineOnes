@@ -3,7 +3,7 @@ body {
   display: grid;
   font-family:Arial, Helvetica, sans-serif;
   /* padding: 0px 32px;  padding on right side of body */
-  grid-gap: 1em;
+  grid-gap: 7em;
   grid-template-columns: auto;
   grid-template-rows: 140px 1fr auto;  /* header main footer */
   background: url("../images/Resized_1920x1080.jpg") no-repeat center center fixed; 
@@ -15,7 +15,8 @@ body {
   }
 
   .header-navigation {
-    background-color: rgba(255, 255, 255, 0.353);
+    background-color: rgba(255, 255, 255, 0.504);
+    text-align: left;
   }
   
   /* TODO: this applies to everything matching nav li? */
@@ -27,8 +28,11 @@ body {
   }
 
   .info {
-    padding-right: 450px;
-    padding-left: 450px;
+    width: 320px;
+    height: 340px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.688);
   }
   
   .header-top {
@@ -57,15 +61,14 @@ body {
 
   .header-buttons {
     /* Align right */
-    margin-left: auto;
-    margin-right: 0;
+   text-align: right;
   }
 
   /*.rectangle_background { This is overwritten by main width???*/
    
   .cta-button {
     background-color: rgb(185, 107, 13);
-    padding: 15px 80px;
+    padding: 10px 50px;
     border-radius: 8px;
   }
   
@@ -78,10 +81,10 @@ body {
     background-color: rgba(0, 0, 0, 0.58);
     text-align: center; /* align Footer_logo_white.png to center */
   }
-  
+
   a {
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 
   }

@@ -21,6 +21,7 @@ An in-depth paragraph about your project and overview of use.
 ### Executing program
 
 - hosted link
+  Netlify link: https://stirring-profiterole-a7775b.netlify.app/
 
 OR
 

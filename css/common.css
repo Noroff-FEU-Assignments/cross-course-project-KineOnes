@@ -1,17 +1,21 @@
 body {
-    min-height: 100vh;  /* Use entire view port/height */
-    display: grid;
-    font-family:Arial, Helvetica, sans-serif;
-    /* padding: 0px 32px;  padding on right side of body */
-    grid-gap: 1em;
-    grid-template-columns: auto;
-    grid-template-rows: 140px 1fr auto;  /* header main footer */
-    background: url("../Images/Resized_1920x1080.jpg") no-repeat center center fixed; 
-    background-size: cover;
-  }
+  min-height: 100vh;  /* Use entire view port/height */
+  display: grid;
+  font-family:Arial, Helvetica, sans-serif;
+  /* padding: 0px 32px;  padding on right side of body */
+  grid-gap: 1em;
+  grid-template-columns: auto;
+  grid-template-rows: 140px 1fr auto;  /* header main footer */
+  background: url("../images/Resized_1920x1080.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
   
   header, footer {
     padding: 0px 0px;
+  }
+
+  .header-navigation {
+    background-color: rgba(255, 255, 255, 0.353);
   }
   
   /* TODO: this applies to everything matching nav li? */
@@ -50,7 +54,7 @@ body {
   .header-rainydays-image {
     width: 290px;
   }
-  
+
   .header-buttons {
     /* Align right */
     margin-left: auto;
@@ -59,7 +63,6 @@ body {
 
   /*.rectangle_background { This is overwritten by main width???*/
    
-  
   .cta-button {
     background-color: rgb(185, 107, 13);
     padding: 15px 80px;
@@ -78,5 +81,8 @@ body {
   
   a {
     font-size: 20px;
+    color: white;
+    text-decoration: none;
+
   }
   

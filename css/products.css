@@ -1,59 +1,5 @@
-body {
-    min-height: 100vh;  /* Use entire view port/height */
-    display: grid;
-    font-family:Arial, Helvetica, sans-serif;
-    /* padding: 0px 32px;  padding on right side of body */
-    grid-gap: 1em;
-    grid-template-columns: auto;
-    grid-template-rows: 140px 1fr auto;  /* header main footer */
-    background: url("../images/Women.jpg") no-repeat center center fixed; 
-    background-size: cover;
-  }
-  
-  header, footer {
-    padding: 0px 0px;
-  }
-  
-  /* TODO: this applies to everything matching nav li? */
-  header a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 0px 30px;
-  }
-
-  .info {
-    padding-right: 450px;
-    padding-left: 450px;
-  }
-
-  .header-top {
-    padding: 0px 30px;               /* Must equal right/left padding of header a (see above) */
-    text-align: right;               /* Align Mountain image to the right */
-  }
-  
-  .header-mountains-logo {  /* . refers to class, # refers to id... when to use them? */
-    width: 290px;
-  }
-  
-  .header-bottom {
-    display: grid;                   /* Enables the grid layout */
-    grid-template-rows: auto;        /* 1 row, auto-scaling to content size */
-    grid-template-columns: 1fr 1fr;  /* 2 columns, each with 1 fraction */
-  }
-  
-  /* .header-rainydays-logo { 
-
-  } */
-    /* Aligns left by default */
-    /* TODO: Anything to be done here? */
-
-  
-  .header-rainydays-image {
-    width: 290px;
-  }
-  
   img {
-    width: 40%;
+    width: 90%;
   }
 
   .products {
@@ -86,7 +32,6 @@ body {
   .jackets {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
   }
 
   /*.rectangle_background {} This is overwritten by main width???*/

@@ -28,11 +28,12 @@ body {
   }
 
   .info {
-    width: 320px;
+    max-width: 320px;
     height: 340px;
     padding: 20px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.688);
+    margin:auto;
   }
   
   .header-top {
@@ -41,7 +42,7 @@ body {
   }
   
   .header-mountains-logo {  /* . refers to class, # refers to id... when to use them? */
-    width: 290px;
+    max-width: 290px;
   }
   
   .header-bottom {
@@ -56,7 +57,7 @@ body {
   
   
   .header-rainydays-image {
-    width: 290px;
+    max-width: 290px;
   }
 
   .header-buttons {
@@ -70,10 +71,12 @@ body {
     background-color: rgb(185, 107, 13);
     padding: 10px 50px;
     border-radius: 8px;
+    display: block;
+    margin: 10px;
   }
   
   .footer-comfort-zone {
-    width: 390px;
+    max-width: 390px;
     padding: 10px;
   }
   
@@ -86,6 +89,5 @@ body {
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-
   }
   

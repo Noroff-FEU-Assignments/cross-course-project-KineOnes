@@ -1,3 +1,8 @@
+body {
+  background: url("../images/Resized_1920x1080.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
 .selected_product { 
   background: url("../images/women_background.jpg") no-repeat center center fixed; 
   background-size: cover;

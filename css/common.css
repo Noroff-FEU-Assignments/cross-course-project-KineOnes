@@ -1,14 +1,13 @@
 body {
-  min-height: 100vh;  /* Use entire view port/height */
+  min-height: 100vh; 
   display: grid;
   font-family:Arial, Helvetica, sans-serif;
-  /* padding: 0px 32px;  padding on right side of body */
   grid-gap: 7em;
   grid-template-columns: auto;
   grid-template-rows: 140px 1fr auto;  /* header main footer */
-  background: url("../images/Resized_1920x1080.jpg") no-repeat center center fixed; 
+  background: url("../images/Mountains\ and\ person.jpg") no-repeat center center fixed; 
   background-size: cover;
-}
+  }
   
   header, footer {
     padding: 0px 0px;
@@ -18,14 +17,16 @@ body {
     background-color: rgba(255, 255, 255, 0.504);
     text-align: left;
   }
-  
-  /* TODO: this applies to everything matching nav li? */
+
   header a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0px 30px;
-
   }
+
+  .page_title {
+    color: white;
+}
 
   .info {
     max-width: 320px;
@@ -37,10 +38,47 @@ body {
   }
   
   .header-top {
-    padding: 0px 30px;               /* Must equal right/left padding of header a (see above) */
-    text-align: right;               /* Align Mountain image to the right */
+    padding: 0px 0px;               /* Must equal right/left padding of header a (see above) */
+    text-align: center;               /* Align Mountain image to the right */
+  }
+
+  @media(min-width: 600px){
+    .header-top{
+      text-align: right;
+    }
   }
   
+  @media(min-width: 600px){
+    .header-bottom{
+      text-align: left;
+    }
+  }
+
+  @media(max-width: 600px){
+    .container{
+      flex-direction: column;
+      grid-template-columns: 1fr;
+    }
+  }
+  
+    @media(max-width: 600px){
+      .header_navigation{
+        grid-template-columns: 1fr;
+      }
+    }
+  
+    @media(max-width: 600px){
+      .header-rainydays-image {
+        width: 100%;
+      }
+    }
+  
+    @media(min-width: 600px){
+        .header-mountains-logo {
+          text-align: center;
+        }
+      }
+
   .header-mountains-logo {  /* . refers to class, # refers to id... when to use them? */
     max-width: 290px;
   }
@@ -50,11 +88,6 @@ body {
     grid-template-rows: auto;        /* 1 row, auto-scaling to content size */
     grid-template-columns: 1fr 1fr;  /* 2 columns, each with 1 fraction */
   }
-  
-  /*.header-rainydays-logo {
-     Aligns left by default */
-    /* TODO: Anything to be done here? */
-  
   
   .header-rainydays-image {
     max-width: 290px;
@@ -90,4 +123,21 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  
+
+  @media(max-width: 600px){
+    body{
+      width: 20%
+    }
+  }
+
+  @media(max-width: 600px){
+    .footer{
+      width: 20%
+    }
+  }
+
+  @media(max-width: 600px){
+    .footer div{
+      width: 20%
+    }
+  }

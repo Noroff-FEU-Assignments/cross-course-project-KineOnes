@@ -38,7 +38,7 @@ body {
   }
   
   .header-top {
-    padding: 0px 0px;               /* Must equal right/left padding of header a (see above) */
+    padding: 0px 30px;               /* Must equal right/left padding of header a (see above) */
     text-align: center;               /* Align Mountain image to the right */
   }
 

@@ -38,19 +38,33 @@ body {
   }
   
   .header-top {
-    padding: 0px 30px;               /* Must equal right/left padding of header a (see above) */
+    padding: 0px 0px;               /* Must equal right/left padding of header a (see above) */
     text-align: center;               /* Align Mountain image to the right */
+  }
+
+  .header-buttons {
+    padding: 0px 0px;               /* Must equal right/left padding of header a (see above) */
+    text-align: right;               /* Align Mountain image to the right */
   }
 
   @media(min-width: 600px){
     .header-top{
       text-align: right;
+      padding: 0px 30px;
     }
   }
   
   @media(min-width: 600px){
     .header-bottom{
       text-align: left;
+
+    }
+  }
+
+  @media(min-width: 600px){
+    .header-buttons{
+      text-align: center;
+      padding: 0px 30px;
     }
   }
 

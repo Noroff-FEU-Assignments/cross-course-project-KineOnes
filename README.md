@@ -8,6 +8,10 @@ An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
+# Changes
+
+I changes the header in my final website design. In the original figma file I had a black horizontal line right under the header. To make it more readable and for people with sight disbilities I changed it to have an white, transparent background instead.
+
 ### Dependencies
 
 - Describe any prerequisites, libraries, OS version, etc., needed before installing the program.

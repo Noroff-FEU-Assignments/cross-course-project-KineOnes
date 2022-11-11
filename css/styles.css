@@ -4,7 +4,31 @@ body {
     min-height: 100vh; display: flex; flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+  
+  .selected_product { 
+    background: url("../images/women_background.jpg") no-repeat center center fixed; 
+    background-size: cover;
+  }
+  
+  .checkout {
+    background: url("../Images/Mountains\ and\ person.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .cart {
+    background: url("../Images/Women.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .about {
+    background: url("../Images/Mountains\ and\ person.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .products {
+    background: url("../Images/Women.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
 .info_background {  /* White transparent square behind content on main */
     max-width: 320px;
     height: 340px;

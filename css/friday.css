@@ -212,6 +212,10 @@ main div {
 
   @media(max-width: 600px){
     .product{
-        height: 124px;
+      height: 225px;
     }
   }
+
+.view_button {
+    padding: 0px;  
+}

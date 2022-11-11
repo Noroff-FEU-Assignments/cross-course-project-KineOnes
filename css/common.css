@@ -37,6 +37,10 @@ body {
     margin:auto;
   }
   
+  .ul {
+    padding-left: 0px;
+  }
+
   .header-top {
     padding: 0px 0px;               /* Must equal right/left padding of header a (see above) */
     text-align: center;               /* Align Mountain image to the right */
@@ -50,10 +54,16 @@ body {
   @media(min-width: 600px){
     .header-top{
       text-align: right;
-      padding: 0px 30px;
+      padding: 0px 60px;
     }
   }
-  
+
+  @media(max-width: 600px){
+    .header-a{
+      padding: 0px;
+    }
+  }
+
   @media(min-width: 600px){
     .header-bottom{
       text-align: left;

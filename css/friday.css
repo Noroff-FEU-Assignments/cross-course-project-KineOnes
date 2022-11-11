@@ -81,12 +81,17 @@ padding-bottom: 269px;
  /* Footer */
   .footer_text {
     max-width: 340px;
-    background-color: rgba(0, 0, 0, 0.63);
     padding: 10px;
+    text-align: center;
 }
 
 footer {
-     margin-top: auto; 
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.428);
 }
-
+footer div {
+text-align: center;
+}
 

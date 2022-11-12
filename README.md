@@ -11,8 +11,10 @@ An in-depth paragraph about your project and overview of use.
 # Changes
 
 -I changes the header in my final website design. In the original figma file I had a black horizontal line right under the header. To make it more readable and for people with sight disbilities I changed it to have an white, transparent background instead.
+
 -On the nav line on mobile screen there was a cart icon on my Figma file. I decided to keep the text for cart instead to make the style and design be more balanced with three text elements centered
 instead.
+
 -In my Figma file all the product pages had the header with white text and logo. This was to make a bigger contrast. Decided to keep the header elements blach on all pages since I had the white, transparent background for contrast instead.
 
 ### Dependencies
@@ -46,7 +48,10 @@ Any advice for common problems or issues.
 ## References:
 
 -Product images from brief in CA, Design1.
--Background images from Usplash.com. -https://compressor.io/ to downsize my images.
+
+-Background images from Usplash.com.
+
+-Compressed images: https://compressor.io/
 
 ## Authors
 

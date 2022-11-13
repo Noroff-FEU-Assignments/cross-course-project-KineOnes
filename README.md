@@ -22,15 +22,9 @@ instead.
 
 -In my Figma file all the product pages had the header with white text and logo. This was to make a bigger contrast. Decided to keep the header elements blach on all pages since I had the white, transparent background for contrast instead.
 
-### Dependencies
+### research and process
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing the program.
-- ex. Windows 10
-
-### Installing
-
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+I thought this course was really fun, challenging and a bit overwhelming. I used a lot of time doing the module lessons and activities, trying to understand how to code and the whole semantic / syntax. Some stages I really got stuck and felt like one step forward was two steps back. In the end I had alot of help from teachers feedback. I ended up coding all the pages from scratch again to follow the DRY principle and understand each step and code. I am happy with my final product, considering this all felt greek from the start.
 
 ### Executing program
 

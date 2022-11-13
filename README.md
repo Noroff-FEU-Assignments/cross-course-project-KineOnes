@@ -24,7 +24,7 @@ instead.
 
 ### research and process
 
-I thought this course was really fun, challenging and a bit overwhelming. I used a lot of time doing the module lessons and activities, trying to understand how to code and the whole semantic / syntax. Some stages I really got stuck and felt like one step forward was two steps back. In the end I had alot of help from teachers feedback. I ended up coding all the pages from scratch again to follow the DRY principle and understand each step and code. I am happy with my final product, considering this all felt greek from the start.
+I thought this course was really fun, challenging and a bit overwhelming. I used a lot of time doing the module lessons and activities, trying to understand how to code and the whole semantic / syntax. Some stages I really got stuck and felt like one step forward was two steps back. In the end I had a lot of help from teachers feedback the last week. I ended up coding all the pages from scratch again to follow the DRY principle and understand each step and code. I am happy with my final product, considering this was all new to me.
 
 ### Executing program
 
@@ -32,7 +32,7 @@ Figma design link: https://www.figma.com/file/t0xJ2Mfd8VYEgBlKVM7JX4/2022-09-23_
 
 Netlify link: https://stirring-profiterole-a7775b.netlify.app/
 
-Github repo link:
+Github repo link: https://github.com/Noroff-FEU-Assignments/cross-course-project-KineOnes.git
 
 ## References:
 
